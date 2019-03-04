@@ -1,0 +1,29 @@
+{
+  "name": "cowsay-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksmith10309/cowsay-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksmith10309/cowsay-app/issues"
+  },
+  "homepage": "https://github.com/ksmith10309/cowsay-app#readme",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "express": "^4.16.4",
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3"
+  }
+}
